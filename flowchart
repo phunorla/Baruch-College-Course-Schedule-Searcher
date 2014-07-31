@@ -1,0 +1,22 @@
+//All files in Web Content Folder
+
+
+
+FLOWCHART:-
+
+SCHEDULE SEARCH PAGE
+		IF DATABASE ERROR, QUERY ERROR, RESULTSET NULL, etc. -----> SCHEDULE SEARCH ERROR PAGE
+
+
+		ELSE -------->  SCHEDULE RESULTS PAGE
+
+SCHEDULE RESULTS PAGE
+
+		WHEN LINK CLICKED, ------------> COURSE DETAILS PAGE
+
+
+COURSE DETAILS PAGE -----------> THE END.
+
+
+
+LIST.JSP contains the database connection and source for AJAX autocomplete feature.

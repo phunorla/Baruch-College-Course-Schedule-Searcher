@@ -1,0 +1,116 @@
+/* CSS Document */
+
+/* elements */
+address, blockquote, body, caption, center, dd, dir, div, dl, dt, form, h1, h2, h3, h4, h5, h6, menu, ol, p, td, th, ul  {
+	font-family:Arial, Helvetica, sans-serif;	
+	}
+table {
+	border-collapse: collapse;
+}
+
+a:link {
+	color: #036;
+	text-decoration: underline;
+	}
+a:visited {
+	color: #666;
+	text-decoration: underline;
+	}	
+a:hover {
+	text-decoration: underline;
+	}
+a:active {
+	text-decoration: underline;
+	}	
+
+/* classes */	
+.errormsg {
+	color: #F00;
+	font-weight: bold;
+	}
+
+/* ids */
+#search caption, #results caption, #criteria caption, #details caption {
+	color: #000;
+	padding-bottom: 4px;
+	}
+#search th, #search td, #results th, #results td, #criteria th, #criteria td, #details th, #details td {
+	padding: 3px 2px;
+	border: 1px solid #999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	}
+#search th, #search td {
+	padding: 4px 4px;
+	vertical-align: top;
+	}
+#details th, #details td {
+	padding: 4px 2px;
+	vertical-align: top;
+	}	
+#search th, #results th, #criteria th, #details th {
+	background: #ccc;
+	}
+#search th, #details th {
+	text-align: right;
+	}	
+#results td {
+	text-align: center;
+	}
+#search td, #criteria td, #details td {
+	text-align: left;
+	}
+ac_results {
+    padding: 0px;
+    border: 1px solid #84a10b;
+    background-color: #84a10b;
+    overflow: hidden;
+}
+.ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ac_results li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: default;
+    display: block;
+    color: #fff;
+    font-family:verdana;
+    /*
+    if width will be 100% horizontal scrollbar will apear
+    when scroll mode will be used
+    */
+    /*width: 100%;*/
+    font-size: 12px;
+    /*
+    it is very important, if line-height not setted or setted
+    in relative units scroll will be broken in firefox
+    */
+    line-height: 16px;
+    overflow: hidden;
+}
+.ac_loading {
+    background: white url('../images/indicator.gif') right center no-repeat;
+}
+.ac_odd {
+    background-color: #84a10b;
+    color: #ffffff;
+}
+.ac_over {
+    background-color: #5a6b13;
+    color: #ffffff;
+}
+.input_text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border:1px solid #84a10b;
+    padding:2px;
+    width:150px;
+    color:#000;
+    background:white url(../images/search.png) no-repeat 3px 2px;
+    padding-left:17px;
+}
